@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 #page-home {
-    height: 110vh; /* vh view port height */
+    height: 120vh; /* vh view port height */
     background: url('../assets/home-background.svg') no-repeat;
     background-position: 35vw bottom;
 }
