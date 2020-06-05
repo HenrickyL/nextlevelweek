@@ -14,8 +14,6 @@ nunjucks.configure("src/views",{
 })
 
 
-
-
 //configurar caminhos da aplicação
         //page home
 // req : requisiçao (pergunta)

@@ -3,7 +3,7 @@
 # nextlevelweek
 Participação no evento nextLevelWeek da rocketseat que consiste em uma semana de estudo intensivo na área de desenvolvimento Web.
 
-<img src="modal.png" alt="print da pagina" width="50%"/>
+<img src="day4.png" alt="print da pagina" width="50%"/>
 
 
 # Day 4
