@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+<!-- com a linha cima podemos retirar o que se não se repete no layout.html  -->
+    {%set pageId = "page-admin-login"%}
+
+{% block title %}
+    <title>LogIn</title> 
+{% endblock title %}
+
+
+{% block styles %}    
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/modal.css">
+    <link rel="stylesheet" href="/styles/login.css">
+{% endblock styles %}
+
+
+{% block content %}
+        <div class="content">
+                <form action="" method = "POST">
+                        <header>
+                                <a href="/" alt="logo">
+                                        <img src="https://seeklogo.com/images/R/reciclagem-logo-6D272B5892-seeklogo.com.png" alt="logo">
+                                        <h1>Ecoleta</h1>
+                                </a>
+                        </header>
+                        <fieldset>
+                                <div class="field-group">
+                                        
+                                        <div class="field">
+                                                <label for="nick">Login</label>
+                                                <input type="text" value = "Admin" disabled>
+                                        </div>
+
+                                        <div class="field">
+                                                <label for="password">Senha</label>
+                                                <input type="password" >
+                                        </div>
+                                        <button  type = "submit">Acessar</button>
+                                </div>
+                              
+                        
+                        </fieldset>
+                </form>
+        
+        </div>
+{% endblock content %}
+
+
+
+{% block modal %}
+    {%include "partials/modal.html"%}
+{% endblock modal %}
+
+
+
+{% block scripts %}
+    <script src="/scripts/index.js"></script>
+{% endblock scripts %}
+           

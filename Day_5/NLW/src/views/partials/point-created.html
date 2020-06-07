@@ -1,0 +1,34 @@
+
+<div id="modal" class="point">
+        <div class="content">
+                {% if error %}
+                        <img src="assets/x.svg" alt="cadastrado com sucesso!">
+                        <h1>
+                        Erro no Cadastro!<br/>
+                        Tente Novamente...
+                        </h1>
+                {%else%}
+                        <img src="assets/check.svg" alt="cadastrado com sucesso!">
+                        <h1>Cadastro Concluido!</h1>
+                {% endif %}
+
+        </div>
+</div>
+
+
+{% if error %}
+        <script>
+        //delay de 2 segundos
+        setTimeout(()=>{
+                        window.location = "/create-point"
+                },2000)
+        </script>
+{%else%}
+        <script>
+
+        //delay de 2 segundos
+        setTimeout(()=>{
+                        window.location = "/"
+                },2000)
+        </script>
+{% endif %}
